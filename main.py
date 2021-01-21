@@ -4,8 +4,8 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-USERNAME = os.environ["kinfai.cheung86@gmail.com "]
-PASSWORD = os.environ["zx36641566"]
+USERNAME = os.environ["USERNAME"]
+PASSWORD = os.environ["PASSWORD"]
 PROXIES = {
     "http": "http://127.0.0.1:10809",
     "https": "http://127.0.0.1:10809"
@@ -19,8 +19,8 @@ def login(username, password) -> (str, requests.session):
         "origin": "https://www.euserv.com"
     }
     login_data = {
-        "email": username,
-        "password": password,
+        "email": kinfai.cheung86@gmail.com,
+        "password": zx36641566,
         "form_selected_language": "en",
         "Submit": "Login",
         "subaction": "login"
