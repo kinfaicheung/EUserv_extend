@@ -19,8 +19,8 @@ def login(username, password) -> (str, requests.session):
         "origin": "https://www.euserv.com"
     }
     login_data = {
-        "email": kinfai.cheung86@gmail.com,
-        "password": zx36641566,
+        "email": email,
+        "password": password,
         "form_selected_language": "en",
         "Submit": "Login",
         "subaction": "login"
