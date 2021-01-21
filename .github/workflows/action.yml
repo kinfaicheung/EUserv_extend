@@ -27,6 +27,6 @@ jobs:
 
       - name: 'Auto_renew'
         env:
-          USERNAME: kinfai.cheung86@gmail.com
-          PASSWORD: zx36641566
+          USERNAME: kinfai.cheung86@gmail.com ccp.on9@gmail.com
+          PASSWORD: zx36641566 36641566
         run: python main.py
